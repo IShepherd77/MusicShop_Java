@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2de8fa93-25ed-40a3-9e11-ef24e1a3a2cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Trumpet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Trumpet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,7 +22,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IPlay.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -44,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Trumpet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#209#210#0" expanded="true" />
                 <element signature="e#243#244#0" expanded="true" />
@@ -53,14 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TrumpetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="532">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
                 <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,8 +123,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Instrument.java" />
         <option value="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" />
         <option value="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TrumpetTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/instruments/Trumpet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TrumpetTest.java" />
       </list>
     </option>
   </component>
@@ -221,12 +228,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="TrumpetTest.getType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TrumpetTest.getNumOfValves">
+    <configuration name="TrumpetTest.getNumOfValves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
-      <option name="METHOD_NAME" value="getType" />
+      <option name="METHOD_NAME" value="getNumOfValves" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrumpetTest.getSellPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
+      <option name="METHOD_NAME" value="getSellPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrumpetTest.getStockPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
+      <option name="METHOD_NAME" value="getStockPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrumpetTest.setSellPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
+      <option name="METHOD_NAME" value="setSellPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrumpetTest.setStockPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
+      <option name="METHOD_NAME" value="setStockPrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -234,7 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TrumpetTest.getType" />
+        <item itemvalue="JUnit.TrumpetTest.getNumOfValves" />
+        <item itemvalue="JUnit.TrumpetTest.setSellPrice" />
+        <item itemvalue="JUnit.TrumpetTest.getSellPrice" />
+        <item itemvalue="JUnit.TrumpetTest.setStockPrice" />
+        <item itemvalue="JUnit.TrumpetTest.getStockPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -251,20 +302,35 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TrumpetTest_getType - 2019.10.19 at 14h 11m 45s.xml">
+      <configuration name="TrumpetTest.getType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrumpetTest_getColour - 2019.10.19 at 14h 18m 57s.xml">
+      <configuration name="TrumpetTest.getColour" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrumpetTest_setColour - 2019.10.19 at 14h 20m 38s.xml">
+      <configuration name="TrumpetTest.setColour" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrumpetTest_getStockPrice - 2019.10.19 at 14h 22m 51s.xml">
+      <configuration name="TrumpetTest.getStockPrice" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16397415" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16397415" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32852563" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32852563" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -334,6 +400,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IPlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Instrument.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -361,7 +434,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Trumpet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#209#210#0" expanded="true" />
             <element signature="e#243#244#0" expanded="true" />
@@ -371,19 +444,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TrumpetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="532">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
             <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IPlay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
