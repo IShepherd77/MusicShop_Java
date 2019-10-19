@@ -4,10 +4,17 @@ import java.util.HashMap;
 
 public class Shop {
 
+        private String name;
     private HashMap<ISell, Integer> stock;
 
-    public Shop(){
+
+    public Shop(String name){
         this.stock = new HashMap<ISell, Integer>();
+        this.name = name;
+    }
+
+    public String getName(){
+        return this.name;
     }
 
 
@@ -25,6 +32,8 @@ public class Shop {
         }
         return stock.get(item);
     }
+
+
 
 
 }
