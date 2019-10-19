@@ -13,7 +13,7 @@ public class GuitarStringsTest {
     @Before
     public void before(){
         guitarStrings1 = new GuitarStrings("Bass guitar strings", 5.00, 6.00);
-        guitarStrings2 = new GuitarStrings("Electric guitar strings", 5.00, 6.20);
+        guitarStrings2 = new GuitarStrings("Electric guitar strings", 6.00, 7.20);
     }
 
     @Test
@@ -28,5 +28,23 @@ public class GuitarStringsTest {
         assertEquals("Test new description", guitarStrings1.getDescription());
     }
 
-    
+    @Test
+    public void canGetStockPrice(){
+        assertEquals(5.00, guitarStrings1.getStockPrice(),0.01);
+        assertEquals(6.00, guitarStrings2.getStockPrice(),0.01);
+    }
+
+    @Test
+    public void canGetSellPrice(){
+        assertEquals(6.00, guitarStrings1.getSellPrice(), 0.01);
+        assertEquals(7.20, guitarStrings2.getSellPrice(), 0.01);
+    }
+
+    @Test
+    public void canCalculateMarkup(){
+      assertEquals(1.00, guitarStrings1.calculateMarkup(), 0.01);
+      assertEquals(1.20, guitarStrings2.calculateMarkup(), 0.01);
+    }
+
+
 }

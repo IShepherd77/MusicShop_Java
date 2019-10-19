@@ -9,7 +9,7 @@ public class GuitarStrings extends Accessories implements ISell {
     }
 
     public double calculateMarkup(){
-        return this.getSellPrice() *20 / 100;
+        return this.getStockPrice() *20 / 100;
     }
 
 }

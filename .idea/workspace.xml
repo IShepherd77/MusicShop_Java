@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2de8fa93-25ed-40a3-9e11-ef24e1a3a2cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/accessories/Accessories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/accessories/GuitarStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GuitarStringsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/ISell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/ISell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Trumpet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Trumpet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarStringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarStringsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -142,8 +133,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GuitarStringsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+            <state relative-caret-position="427">
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -341,20 +332,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GuitarStringsTest.canSetDescription">
-    <configuration name="All in MusicShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GuitarStringsTest">
+    <configuration name="GuitarStringsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="GuitarStringsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuitarStringsTest.canGetDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GuitarStringsTest.canCalculateMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GuitarStringsTest" />
-      <option name="METHOD_NAME" value="canGetDescription" />
+      <option name="METHOD_NAME" value="canCalculateMarkup" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuitarStringsTest.canGetSellPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuitarStringsTest" />
+      <option name="METHOD_NAME" value="canGetSellPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuitarStringsTest.canGetStockPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuitarStringsTest" />
+      <option name="METHOD_NAME" value="canGetStockPrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -370,32 +382,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MusicShop" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GuitarTest.canGetNoOfStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MusicShop" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
-      <option name="METHOD_NAME" value="canGetNoOfStrings" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuitarStringsTest" />
+        <item itemvalue="JUnit.GuitarStringsTest.canCalculateMarkup" />
+        <item itemvalue="JUnit.GuitarStringsTest.canGetSellPrice" />
+        <item itemvalue="JUnit.GuitarStringsTest.canGetStockPrice" />
         <item itemvalue="JUnit.GuitarStringsTest.canSetDescription" />
-        <item itemvalue="JUnit.GuitarStringsTest.canGetDescription" />
-        <item itemvalue="JUnit.All in MusicShop" />
-        <item itemvalue="JUnit.GuitarTest.canGetNoOfStrings" />
-        <item itemvalue="JUnit.GuitarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -413,42 +406,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GuitarTest_canGetColour - 2019.10.19 at 14h 56m 36s.xml">
-      <configuration name="GuitarTest.canGetColour" configurationId="JUnit" />
+    <history-entry file="GuitarStringsTest_canGetStockPrice - 2019.10.19 at 16h 01m 44s.xml">
+      <configuration name="GuitarStringsTest.canGetStockPrice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GuitarTest_canSetColour - 2019.10.19 at 14h 57m 26s.xml">
-      <configuration name="GuitarTest.canSetColour" configurationId="JUnit" />
+    <history-entry file="GuitarStringsTest_canGetSellPrice - 2019.10.19 at 16h 02m 29s.xml">
+      <configuration name="GuitarStringsTest.canGetSellPrice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GuitarTest_canGetStockPrice - 2019.10.19 at 14h 58m 13s.xml">
-      <configuration name="GuitarTest.canGetStockPrice" configurationId="JUnit" />
+    <history-entry file="GuitarStringsTest_canCalculateMarkup - 2019.10.19 at 16h 04m 18s.xml">
+      <configuration name="GuitarStringsTest.canCalculateMarkup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GuitarTest_canSetStockPrice - 2019.10.19 at 14h 58m 46s.xml">
-      <configuration name="GuitarTest.canSetStockPrice" configurationId="JUnit" />
+    <history-entry file="GuitarStringsTest_canCalculateMarkup - 2019.10.19 at 16h 06m 03s.xml">
+      <configuration name="GuitarStringsTest.canCalculateMarkup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GuitarTest_canSetStockPrice - 2019.10.19 at 14h 59m 35s.xml">
-      <configuration name="GuitarTest.canSetStockPrice" configurationId="JUnit" />
+    <history-entry file="GuitarStringsTest_canCalculateMarkup - 2019.10.19 at 16h 06m 17s.xml">
+      <configuration name="GuitarStringsTest.canCalculateMarkup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GuitarTest - 2019.10.19 at 15h 01m 14s.xml">
-      <configuration name="GuitarTest" configurationId="JUnit" />
+    <history-entry file="GuitarStringsTest_canCalculateMarkup - 2019.10.19 at 16h 07m 41s.xml">
+      <configuration name="GuitarStringsTest.canCalculateMarkup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GuitarTest - 2019.10.19 at 15h 01m 49s.xml">
-      <configuration name="GuitarTest" configurationId="JUnit" />
+    <history-entry file="GuitarStringsTest_canCalculateMarkup - 2019.10.19 at 16h 09m 12s.xml">
+      <configuration name="GuitarStringsTest.canCalculateMarkup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GuitarTest_canGetNoOfStrings - 2019.10.19 at 15h 03m 30s.xml">
-      <configuration name="GuitarTest.canGetNoOfStrings" configurationId="JUnit" />
+    <history-entry file="GuitarStringsTest_canCalculateMarkup - 2019.10.19 at 16h 09m 35s.xml">
+      <configuration name="GuitarStringsTest.canCalculateMarkup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_MusicShop - 2019.10.19 at 15h 54m 33s.xml">
-      <configuration name="All in MusicShop" configurationId="JUnit" />
+    <history-entry file="GuitarStringsTest_canCalculateMarkup - 2019.10.19 at 16h 10m 40s.xml">
+      <configuration name="GuitarStringsTest.canCalculateMarkup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_MusicShop - 2019.10.19 at 15h 57m 20s.xml">
-      <configuration name="All in MusicShop" configurationId="JUnit" />
+    <history-entry file="GuitarStringsTest_canCalculateMarkup - 2019.10.19 at 16h 10m 53s.xml">
+      <configuration name="GuitarStringsTest.canCalculateMarkup" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16397415" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16397415" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -639,8 +632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GuitarStringsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+        <state relative-caret-position="427">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
