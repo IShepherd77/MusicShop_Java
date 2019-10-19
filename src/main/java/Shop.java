@@ -40,5 +40,5 @@ public class Shop {
             stock.remove(item);
         }
     }
-    
+
 }

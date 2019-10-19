@@ -43,13 +43,26 @@ public class ShopTest {
         assertEquals(1, shop.stockCount(guitarStrings1));
         assertEquals(1, shop.stockCount(trumpet2));
         assertEquals(2, shop.stockCount(guitarStrings2));
-
     }
 
+    @Test
+    public void canRemoveItemFromStock(){
+        shop.addStock(trumpet1);
+        shop.addStock(trumpet1);
+        shop.addStock(trumpet1);
+        shop.addStock(guitarStrings1);
+        shop.addStock(guitarStrings1);
+        shop.addStock(trumpet2);
+        assertEquals(3, shop.stockCount(trumpet1));
+        assertEquals(2, shop.stockCount(guitarStrings1));
+        assertEquals(1, shop.stockCount(trumpet2));
 
-
-
-
-
-
+        shop.removeItemFromStock(trumpet1);
+        shop.removeItemFromStock(guitarStrings1);
+        shop.removeItemFromStock(trumpet2);
+        assertEquals(2, shop.stockCount(trumpet1));
+        assertEquals(1, shop.stockCount(guitarStrings1));
+        assertEquals(0, shop.stockCount(trumpet2));
+    }
+    
 }
