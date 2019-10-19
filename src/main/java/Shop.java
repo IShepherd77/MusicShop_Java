@@ -33,7 +33,12 @@ public class Shop {
         return stock.get(item);
     }
 
-
-
-
+    public void removeItemFromStock(ISell item){
+        if(stockCount(item) >= 1){
+            stock.put(item, stock.get(item) -1);
+        } else {
+            stock.remove(item);
+        }
+    }
+    
 }

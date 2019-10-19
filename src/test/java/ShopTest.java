@@ -24,12 +24,26 @@ public class ShopTest {
     }
 
     @Test
+    public void canGetName(){
+        assertEquals("HMV", shop.getName());
+    }
+
+    @Test
     public void canAddStock(){
         shop.addStock(trumpet1);
         shop.addStock(trumpet1);
+
         shop.addStock(guitarStrings1);
+        shop.addStock(trumpet2);
+
+        shop.addStock(guitarStrings2);
+        shop.addStock(guitarStrings2);
+
         assertEquals(2, shop.stockCount(trumpet1));
         assertEquals(1, shop.stockCount(guitarStrings1));
+        assertEquals(1, shop.stockCount(trumpet2));
+        assertEquals(2, shop.stockCount(guitarStrings2));
+
     }
 
 
