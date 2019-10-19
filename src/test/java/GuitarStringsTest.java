@@ -46,5 +46,13 @@ public class GuitarStringsTest {
       assertEquals(1.20, guitarStrings2.calculateMarkup(), 0.01);
     }
 
+    @Test
+    public void canSetStockPriceWithCalculatedMarkup(){
+        guitarStrings1.setStockPrice(10.00);
+        assertEquals(10.00, guitarStrings1.getStockPrice(),0.01);
+        guitarStrings1.calculateMarkup();
+        assertEquals(2, guitarStrings1.calculateMarkup(), 0.01);
+    }
+
 
 }

@@ -17,4 +17,8 @@ public class Trumpet extends Instrument {
       return  "Parp, parp!";
     }
 
+    public double calculateMarkup() {
+        return this.getStockPrice() *50 / 100;
+    }
+
 }

@@ -7,10 +7,12 @@ import static org.junit.Assert.assertEquals;
 public class TrumpetTest {
 
     Trumpet trumpet1;
+    Trumpet trumpet2;
 
     @Before
     public void before(){
-        trumpet1 = new Trumpet("brass", "yellow", 50.00, 100.00, 3);
+        trumpet1 = new Trumpet("brass", "yellow", 50.00, 75.00, 3);
+        trumpet2 = new Trumpet("brass", "yellow", 100.00, 150.00, 3);
     }
 
     @Test
@@ -42,7 +44,7 @@ public class TrumpetTest {
 
     @Test
     public void canGetSellPrice(){
-        assertEquals(100.00, trumpet1.getSellPrice(), 0.01);
+        assertEquals(75.00, trumpet1.getSellPrice(), 0.01);
     }
 
     @Test
@@ -59,6 +61,12 @@ public class TrumpetTest {
     @Test
     public void canGetSound(){
         assertEquals("Parp, parp!", trumpet1.getSound());
+    }
+
+    @Test
+    public void canCalculateMarkup(){
+        assertEquals(25.00, trumpet1.calculateMarkup(), 0.01);
+        assertEquals(50.00, trumpet2.calculateMarkup(), 0.01);
     }
 
 }

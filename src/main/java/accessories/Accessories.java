@@ -25,7 +25,7 @@ public abstract class Accessories implements ISell {
         return stockPrice;
     }
 
-    public void setStockPrice(int stockPrice) {
+    public void setStockPrice(double stockPrice) {
         this.stockPrice = stockPrice;
     }
 
