@@ -10,7 +10,12 @@ public class Guitar extends Instrument{
         this.numOfStrings = numOfStrings;
     }
 
+    public String getSound(){
+        return "bumchickawahwah";
+    }
 
 
-
+    public int getNumOfStrings() {
+        return this.numOfStrings;
+    }
 }

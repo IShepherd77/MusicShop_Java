@@ -30,30 +30,35 @@ public class TrumpetTest {
     }
 
     @Test
-    public void getStockPrice(){
+    public void canGetStockPrice(){
         assertEquals(50, trumpet1.getStockPrice());
     }
 
     @Test
-    public void setStockPrice(){
+    public void canSetStockPrice(){
         trumpet1.setStockPrice(40);
         assertEquals(40, trumpet1.getStockPrice());
     }
 
     @Test
-    public void getSellPrice(){
+    public void canGetSellPrice(){
         assertEquals(100, trumpet1.getSellPrice());
     }
 
     @Test
-    public void setSellPrice(){
+    public void canSetSellPrice(){
         trumpet1.setSellPrice(110);
         assertEquals(110, trumpet1.getSellPrice());
     }
 
     @Test
-    public void getNumOfValves(){
+    public void canGetNumOfValves(){
         assertEquals(3, trumpet1.getNumOfValves());
+    }
+
+    @Test
+    public void canGetSound(){
+        assertEquals("Parp, parp!", trumpet1.getSound());
     }
 
 }

@@ -1,6 +1,8 @@
 package instruments;
 
-public class Trumpet extends Instrument{
+import behaviours.IPlay;
+
+public class Trumpet extends Instrument {
 
     private int numOfValves;
 
@@ -11,6 +13,10 @@ public class Trumpet extends Instrument{
 
     public int getNumOfValves() {
         return numOfValves;
+    }
+
+    public String getSound(){
+      return  "Parp, parp!";
     }
 
 }
