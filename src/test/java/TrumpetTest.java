@@ -10,7 +10,7 @@ public class TrumpetTest {
 
     @Before
     public void before(){
-        trumpet1 = new Trumpet("brass", "yellow", 50, 100, 3);
+        trumpet1 = new Trumpet("brass", "yellow", 50.00, 100.00, 3);
     }
 
     @Test
@@ -31,24 +31,24 @@ public class TrumpetTest {
 
     @Test
     public void canGetStockPrice(){
-        assertEquals(50, trumpet1.getStockPrice());
+        assertEquals(50.00, trumpet1.getStockPrice(), 0.01);
     }
 
     @Test
     public void canSetStockPrice(){
-        trumpet1.setStockPrice(40);
-        assertEquals(40, trumpet1.getStockPrice());
+        trumpet1.setStockPrice(40.00);
+        assertEquals(40.00, trumpet1.getStockPrice(), 0.01);
     }
 
     @Test
     public void canGetSellPrice(){
-        assertEquals(100, trumpet1.getSellPrice());
+        assertEquals(100.00, trumpet1.getSellPrice(), 0.01);
     }
 
     @Test
     public void canSetSellPrice(){
-        trumpet1.setSellPrice(110);
-        assertEquals(110, trumpet1.getSellPrice());
+        trumpet1.setSellPrice(110.00);
+        assertEquals(110.00, trumpet1.getSellPrice(), 0.01);
     }
 
     @Test

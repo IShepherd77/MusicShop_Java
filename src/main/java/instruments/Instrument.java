@@ -6,10 +6,10 @@ public abstract class Instrument implements IPlay {
 
     private String type;
     private String colour;
-    private int stockPrice;
-    private int sellPrice;
+    private double stockPrice;
+    private double sellPrice;
 
-    public Instrument(String type, String colour, int stockPrice, int sellPrice) {
+    public Instrument(String type, String colour, double stockPrice, double sellPrice) {
         this.type = type;
         this.colour = colour;
         this.stockPrice = stockPrice;
@@ -20,10 +20,6 @@ public abstract class Instrument implements IPlay {
         return type;
     }
 
-    public void setType(String type) {
-        this.type = type;
-    }
-
     public String getColour() {
         return colour;
     }
@@ -32,19 +28,19 @@ public abstract class Instrument implements IPlay {
         this.colour = colour;
     }
 
-    public int getStockPrice() {
+    public double getStockPrice() {
         return stockPrice;
     }
 
-    public void setStockPrice(int stockPrice) {
+    public void setStockPrice(double stockPrice) {
         this.stockPrice = stockPrice;
     }
 
-    public int getSellPrice() {
+    public double getSellPrice() {
         return sellPrice;
     }
 
-    public void setSellPrice(int sellPrice) {
+    public void setSellPrice(double sellPrice) {
         this.sellPrice = sellPrice;
     }
 }
