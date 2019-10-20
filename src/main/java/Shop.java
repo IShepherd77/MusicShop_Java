@@ -1,6 +1,6 @@
-import accessories.Accessories;
+
 import behaviours.ISell;
-import instruments.Instrument;
+
 
 import java.util.HashMap;
 
@@ -8,8 +8,7 @@ public class Shop {
 
         private String name;
     private HashMap<ISell, Integer> stock;
-    private Instrument instrument;
-    private Accessories accessories;
+
 
 
     public Shop(String name){
