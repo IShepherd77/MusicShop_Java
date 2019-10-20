@@ -64,5 +64,14 @@ public class ShopTest {
         assertEquals(1, shop.stockCount(guitarStrings1));
         assertEquals(0, shop.stockCount(trumpet2));
     }
-    
+
+
+    @Test
+    public void canTotalCost(){
+        shop.addStock((trumpet1));
+        shop.addStock((trumpet2));
+        shop.addStock((guitarStrings2));
+        assertEquals(156.00, shop.getTotalStockPrice(), 0.01);
+    }
+
 }

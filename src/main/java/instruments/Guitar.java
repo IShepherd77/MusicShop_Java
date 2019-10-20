@@ -20,6 +20,6 @@ public class Guitar extends Instrument{
     }
 
     public double calculateMarkup() {
-        return this.getStockPrice() *80 / 100;
+        return this.getSellPrice() - this.getStockPrice() ;
     }
 }

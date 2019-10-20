@@ -21,4 +21,6 @@ public class Trumpet extends Instrument {
         return this.getStockPrice() *50 / 100;
     }
 
+
+
 }

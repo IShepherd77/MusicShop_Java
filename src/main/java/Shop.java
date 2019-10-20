@@ -1,4 +1,6 @@
+import accessories.Accessories;
 import behaviours.ISell;
+import instruments.Instrument;
 
 import java.util.HashMap;
 
@@ -6,6 +8,8 @@ public class Shop {
 
         private String name;
     private HashMap<ISell, Integer> stock;
+    private Instrument instrument;
+    private Accessories accessories;
 
 
     public Shop(String name){
@@ -20,7 +24,7 @@ public class Shop {
 
     public void addStock(ISell item){
         if(stock.containsKey(item)){
-            stock.put(item, 1+ stock.get(item));
+            stock.put(item, stock.get(item) +1);
         } else {
             stock.put(item, 1);
         }
@@ -39,6 +43,16 @@ public class Shop {
         } else {
             stock.remove(item);
         }
+    }
+
+    public Double getTotalStockPrice() {
+        double totalCost = 0;
+        for (ISell item : stock.keySet()) {
+            double price = stock.get(item) * item.getStockPrice();
+            totalCost += price;
+        }
+        return totalCost;
+
     }
 
 }
