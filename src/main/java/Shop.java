@@ -52,7 +52,15 @@ public class Shop {
             totalCost += price;
         }
         return totalCost;
+    }
 
+    public double getTotalSellPrice(){
+        double totalCost = 0;
+        for(ISell item : stock.keySet()){
+            double price = stock.get(item) * item.getSellPrice();
+            totalCost += price;
+        }
+        return totalCost;
     }
 
 }

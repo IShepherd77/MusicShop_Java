@@ -67,11 +67,22 @@ public class ShopTest {
 
 
     @Test
-    public void canTotalCost(){
+    public void canTotalStockPrice(){
         shop.addStock((trumpet1));
         shop.addStock((trumpet2));
         shop.addStock((guitarStrings2));
         assertEquals(156.00, shop.getTotalStockPrice(), 0.01);
     }
+
+    @Test
+    public void canTotalSellPrice(){
+        shop.addStock(trumpet1);
+        shop.addStock(trumpet1);
+        shop.addStock(trumpet2);
+        shop.addStock(guitarStrings1);
+        assertEquals(306, shop.getTotalSellPrice(), 0.01);
+    }
+
+
 
 }
